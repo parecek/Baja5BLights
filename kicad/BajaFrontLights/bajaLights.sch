@@ -1,0 +1,404 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bajaLights-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BATTERY BT1
+U 1 1 54D3E389
+P 8550 1700
+F 0 "BT1" H 8550 1900 50  0000 C CNN
+F 1 "3.3V" H 8550 1510 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8550 1700 60  0001 C CNN
+F 3 "" H 8550 1700 60  0000 C CNN
+	1    8550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR1
+U 1 1 54D3E451
+P 8250 1500
+F 0 "#PWR1" H 8250 1600 30  0001 C CNN
+F 1 "VCC" H 8250 1600 30  0000 C CNN
+F 2 "" H 8250 1500 60  0000 C CNN
+F 3 "" H 8250 1500 60  0000 C CNN
+	1    8250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 54D3E46D
+P 8850 1900
+F 0 "#PWR2" H 8850 1900 30  0001 C CNN
+F 1 "GND" H 8850 1830 30  0001 C CNN
+F 2 "" H 8850 1900 60  0000 C CNN
+F 3 "" H 8850 1900 60  0000 C CNN
+	1    8850 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1700 8850 1900
+Wire Wire Line
+	8250 1500 8250 1700
+Text Notes 7400 7500 0    79   ~ 0
+Predni svetlo
+Text Notes 7250 7250 0    79   ~ 0
+1
+Text Notes 7400 7250 0    79   ~ 0
+1
+$Comp
+L LED D?
+U 1 1 54EA328D
+P 1400 3700
+F 0 "D?" H 1400 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 1400 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 1400 3700 60  0001 C CNN
+F 3 "" H 1400 3700 60  0000 C CNN
+	1    1400 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA3294
+P 1400 3250
+F 0 "R?" V 1480 3250 40  0000 C CNN
+F 1 "100" V 1407 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 1330 3250 30  0001 C CNN
+F 3 "" H 1400 3250 30  0000 C CNN
+	1    1400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 54EA329B
+P 1300 3000
+F 0 "#PWR?" H 1300 3100 30  0001 C CNN
+F 1 "VCC" H 1300 3100 30  0000 C CNN
+F 2 "" H 1300 3000 60  0000 C CNN
+F 3 "" H 1300 3000 60  0000 C CNN
+	1    1300 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54EA32A1
+P 1250 3900
+F 0 "#PWR?" H 1250 3900 30  0001 C CNN
+F 1 "GND" H 1250 3830 30  0001 C CNN
+F 2 "" H 1250 3900 60  0000 C CNN
+F 3 "" H 1250 3900 60  0000 C CNN
+	1    1250 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA32A7
+P 1700 3700
+F 0 "D?" H 1700 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 1700 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 1700 3700 60  0001 C CNN
+F 3 "" H 1700 3700 60  0000 C CNN
+	1    1700 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA32AE
+P 1700 3250
+F 0 "R?" V 1780 3250 40  0000 C CNN
+F 1 "100" V 1707 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 1630 3250 30  0001 C CNN
+F 3 "" H 1700 3250 30  0000 C CNN
+	1    1700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA32B5
+P 2000 3700
+F 0 "D?" H 2000 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 2000 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2000 3700 60  0001 C CNN
+F 3 "" H 2000 3700 60  0000 C CNN
+	1    2000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA32BC
+P 2000 3250
+F 0 "R?" V 2080 3250 40  0000 C CNN
+F 1 "100" V 2007 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 1930 3250 30  0001 C CNN
+F 3 "" H 2000 3250 30  0000 C CNN
+	1    2000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA32C3
+P 2300 3700
+F 0 "D?" H 2300 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 2300 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2300 3700 60  0001 C CNN
+F 3 "" H 2300 3700 60  0000 C CNN
+	1    2300 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA32CA
+P 2300 3250
+F 0 "R?" V 2380 3250 40  0000 C CNN
+F 1 "100" V 2307 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2230 3250 30  0001 C CNN
+F 3 "" H 2300 3250 30  0000 C CNN
+	1    2300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA32D1
+P 2600 3700
+F 0 "D?" H 2600 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 2600 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2600 3700 60  0001 C CNN
+F 3 "" H 2600 3700 60  0000 C CNN
+	1    2600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA32D8
+P 2600 3250
+F 0 "R?" V 2680 3250 40  0000 C CNN
+F 1 "100" V 2607 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2530 3250 30  0001 C CNN
+F 3 "" H 2600 3250 30  0000 C CNN
+	1    2600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA32DF
+P 2900 3700
+F 0 "D?" H 2900 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 2900 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 2900 3700 60  0001 C CNN
+F 3 "" H 2900 3700 60  0000 C CNN
+	1    2900 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA32E6
+P 2900 3250
+F 0 "R?" V 2980 3250 40  0000 C CNN
+F 1 "100" V 2907 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2830 3250 30  0001 C CNN
+F 3 "" H 2900 3250 30  0000 C CNN
+	1    2900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA32ED
+P 3200 3700
+F 0 "D?" H 3200 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 3200 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 3200 3700 60  0001 C CNN
+F 3 "" H 3200 3700 60  0000 C CNN
+	1    3200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA32F4
+P 3200 3250
+F 0 "R?" V 3280 3250 40  0000 C CNN
+F 1 "100" V 3207 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3130 3250 30  0001 C CNN
+F 3 "" H 3200 3250 30  0000 C CNN
+	1    3200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA32FB
+P 3500 3700
+F 0 "D?" H 3500 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 3500 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 3500 3700 60  0001 C CNN
+F 3 "" H 3500 3700 60  0000 C CNN
+	1    3500 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA3302
+P 3500 3250
+F 0 "R?" V 3580 3250 40  0000 C CNN
+F 1 "100" V 3507 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3430 3250 30  0001 C CNN
+F 3 "" H 3500 3250 30  0000 C CNN
+	1    3500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA3309
+P 3800 3700
+F 0 "D?" H 3800 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 3800 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 3800 3700 60  0001 C CNN
+F 3 "" H 3800 3700 60  0000 C CNN
+	1    3800 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA3310
+P 3800 3250
+F 0 "R?" V 3880 3250 40  0000 C CNN
+F 1 "100" V 3807 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 3250 30  0001 C CNN
+F 3 "" H 3800 3250 30  0000 C CNN
+	1    3800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA3317
+P 4100 3700
+F 0 "D?" H 4100 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 4100 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 4100 3700 60  0001 C CNN
+F 3 "" H 4100 3700 60  0000 C CNN
+	1    4100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA331E
+P 4100 3250
+F 0 "R?" V 4180 3250 40  0000 C CNN
+F 1 "100" V 4107 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4030 3250 30  0001 C CNN
+F 3 "" H 4100 3250 30  0000 C CNN
+	1    4100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA3325
+P 4400 3700
+F 0 "D?" H 4400 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 4400 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 4400 3700 60  0001 C CNN
+F 3 "" H 4400 3700 60  0000 C CNN
+	1    4400 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA332C
+P 4400 3250
+F 0 "R?" V 4480 3250 40  0000 C CNN
+F 1 "100" V 4407 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4330 3250 30  0001 C CNN
+F 3 "" H 4400 3250 30  0000 C CNN
+	1    4400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EA3333
+P 4700 3700
+F 0 "D?" H 4700 3800 50  0000 C CNN
+F 1 "LED 3.1V" H 4700 3600 39  0000 C CNN
+F 2 "LEDs:LED-5MM" H 4700 3700 60  0001 C CNN
+F 3 "" H 4700 3700 60  0000 C CNN
+	1    4700 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54EA333A
+P 4700 3250
+F 0 "R?" V 4780 3250 40  0000 C CNN
+F 1 "100" V 4707 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4630 3250 30  0001 C CNN
+F 3 "" H 4700 3250 30  0000 C CNN
+	1    4700 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3900 4700 3900
+Wire Wire Line
+	1300 3000 4700 3000
+Connection ~ 1400 3000
+Connection ~ 1700 3000
+Connection ~ 2000 3000
+Connection ~ 2300 3000
+Connection ~ 2600 3000
+Connection ~ 2900 3000
+Connection ~ 3200 3000
+Connection ~ 3500 3000
+Connection ~ 3800 3000
+Connection ~ 4100 3000
+Connection ~ 4400 3000
+Connection ~ 4700 3000
+Connection ~ 4700 3900
+Connection ~ 4400 3900
+Connection ~ 4100 3900
+Connection ~ 3800 3900
+Connection ~ 3500 3900
+Connection ~ 3200 3900
+Connection ~ 2900 3900
+Connection ~ 2600 3900
+Connection ~ 2300 3900
+Connection ~ 2000 3900
+Connection ~ 1700 3900
+Connection ~ 1400 3900
+$EndSCHEMATC

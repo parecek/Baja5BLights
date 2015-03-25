@@ -1,0 +1,199 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Út 3. březen 2015, 23:34:50 CET
+
+BeginCmp
+TimeStamp = /54F6177D;
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = Discret:C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFDD69;
+Reference = C2;
+ValeurCmp = 10u;
+IdModule  = Discret:C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EF9F71;
+Reference = C3;
+ValeurCmp = 22p;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFA013;
+Reference = C4;
+ValeurCmp = 22p;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFC843;
+Reference = C5;
+ValeurCmp = 104;
+IdModule  = Discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFC55C;
+Reference = C6;
+ValeurCmp = 102;
+IdModule  = Discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F617D5;
+Reference = C7;
+ValeurCmp = 104;
+IdModule  = Discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F62747;
+Reference = C8;
+ValeurCmp = 104;
+IdModule  = Discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EF9DA4;
+Reference = IC1;
+ValeurCmp = ATMEGA328-P;
+IdModule  = Sockets_DIP:DIP-28__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFE140;
+Reference = P1;
+ValeurCmp = Throttle;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFEC32;
+Reference = P2;
+ValeurCmp = AUX1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F0F717;
+Reference = P3;
+ValeurCmp = Front1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F0F768;
+Reference = P4;
+ValeurCmp = Front2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFF5DC;
+Reference = P5;
+ValeurCmp = BackLight;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F63623;
+Reference = Q1;
+ValeurCmp = BS107_DGS;
+IdModule  = Discret:TO92DGS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F63661;
+Reference = Q2;
+ValeurCmp = BS107_DGS;
+IdModule  = Discret:TO92DGS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFD3C1;
+Reference = R3;
+ValeurCmp = 270R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFA2E6;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F0EE65;
+Reference = R5;
+ValeurCmp = 10R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFBE7B;
+Reference = R7;
+ValeurCmp = 1K5;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFC1C4;
+Reference = R8;
+ValeurCmp = 220R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFC110;
+Reference = R9;
+ValeurCmp = 18K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFB723;
+Reference = R11;
+ValeurCmp = 10R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F61BAA;
+Reference = Trimmer1;
+ValeurCmp = 1K;
+IdModule  = Parek modules:Trimmer_CA6V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFD294;
+Reference = U1;
+ValeurCmp = LT1086CT;
+IdModule  = Power_Integrations:TO-220;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFA1C3;
+Reference = U2;
+ValeurCmp = LM555N;
+IdModule  = Sockets_DIP:DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F0E697;
+Reference = U3;
+ValeurCmp = ULN2003A;
+IdModule  = Sockets_DIP:DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EF9E42;
+Reference = X1;
+ValeurCmp = 12Mhz;
+IdModule  = Crystals:Crystal_HC49-U_Vertical;
+EndCmp
+
+EndListe

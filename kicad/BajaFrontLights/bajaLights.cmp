@@ -1,0 +1,262 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Út 17. únor 2015, 22:11:53 CET
+
+BeginCmp
+TimeStamp = /54D3E389;
+Reference = BT1;
+ValeurCmp = 3.3V;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3E48F;
+Reference = D1;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3EA19;
+Reference = D2;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3EAF6;
+Reference = D3;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3EB02;
+Reference = D4;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3ED51;
+Reference = D5;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3ED5D;
+Reference = D6;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3ED69;
+Reference = D7;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3ED75;
+Reference = D8;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3F073;
+Reference = D9;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3F07F;
+Reference = D10;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3F08B;
+Reference = D11;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3F097;
+Reference = D12;
+ValeurCmp = LED 3.1V;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11C35;
+Reference = D13;
+ValeurCmp = LED 2.2V;
+IdModule  = Parek modules:LED-3528;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11913;
+Reference = D14;
+ValeurCmp = LED 2.2V;
+IdModule  = Parek modules:LED-3528;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11D0D;
+Reference = D15;
+ValeurCmp = LED 2.2V;
+IdModule  = Parek modules:LED-3528;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11D01;
+Reference = D16;
+ValeurCmp = LED 2.2V;
+IdModule  = Parek modules:LED-3528;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11DF1;
+Reference = D17;
+ValeurCmp = LED 2.2V;
+IdModule  = Parek modules:LED-3528;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11DE5;
+Reference = D18;
+ValeurCmp = LED 2.2V;
+IdModule  = Parek modules:LED-3528;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3E546;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3EA1F;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3EAFC;
+Reference = R3;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3EB08;
+Reference = R4;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3ED57;
+Reference = R5;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3ED63;
+Reference = R6;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3ED6F;
+Reference = R7;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3ED7B;
+Reference = R8;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3F079;
+Reference = R9;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3F085;
+Reference = R10;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3F091;
+Reference = R11;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3F09D;
+Reference = R12;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11C3B;
+Reference = R13;
+ValeurCmp = 39R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11987;
+Reference = R14;
+ValeurCmp = 39R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11D13;
+Reference = R15;
+ValeurCmp = 39R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11D07;
+Reference = R16;
+ValeurCmp = 39R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11DF7;
+Reference = R17;
+ValeurCmp = 39R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E1155D/54E11DEB;
+Reference = R18;
+ValeurCmp = 39R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+EndListe
